@@ -47,9 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+/* My Styling */ 
+
 body { 
 	font-family: Courier;
 }
-h1 { 
+h1, h2 { 
 font-family: helvetica;
+}
+h1 { 
+	font-size: 24px;
+}
+h2 {
+	font-size:22px;
+}
+p {
+	font-size:14px;
 }

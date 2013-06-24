@@ -1,0 +1,90 @@
+/* My Styling */ 
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('Fonts/bebasneue-webfont.eot');
+    src: url('Fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/bebasneue-webfont.woff') format('woff'),
+         url('Fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('Fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 { 
+	font-family: bebas_neueregular;
+	line-height: 0px;
+	vertical-align: text-top;
+	margin-bottom: 10px;
+	margin-top:40px;
+	font-size: 34px;
+}
+
+h3 { 
+	font-family: helvetica, arial, verdana;
+}
+
+h5 { 
+	font-family: helvetica, arial,verdana;
+	vertical-align: text-bottom;
+	margin-bottom: 0px;
+}
+
+a:link { 
+	text-decoration: none;
+	color: black;
+}
+
+a:visited { 
+	color:black;
+}
+a:hover { 
+	color:mediumspringgreen;
+}
+
+ul, ol { 
+	margin-left: 0; 
+	padding: 0;
+	font-family: helvetica;
+	font-weight: bold;
+
+}
+section h1 { 
+	margin-top:15px;
+	margin-bottom:30px;
+}
+
+
+#topmenu { 
+	font-family: helvetica, arial, verdana; 
+
+}
+
+#articlemenu ul li {
+	padding-top: 22px;
+	max-width: 230px;
+	font-family: helvetica, arial, verdana; 
+	list-style-type: none;
+
+}
+
+#content { 
+	max-width:700px;
+}
+
+#content p { 
+	font-family: helvetica, arial, verdana;
+	margin-bottom:60px;
+	word-spacing: 0.1em;
+
+}
+
+#top { 
+	font-family:bebas_neueregular;
+	font-size: 50px;
+}
+
+
+
+

@@ -11,24 +11,25 @@
     font-style: normal;
 }
 
+
+
 h1 { 
 	font-family: bebas_neueregular;
 	line-height: 0px;
 	vertical-align: text-top;
 	margin-bottom: 30px;
-	margin-top:15px;
+	margin-top:40px;
 	font-size: 34px;
 }
 
-#content p { 
+h3 { 
 	font-family: helvetica, arial, verdana;
-	margin-bottom:60px
 }
 
 h5 { 
 	font-family: helvetica, arial,verdana;
 	vertical-align: text-bottom;
-	margin-bottom: .1px;
+	margin-bottom: 0px;
 }
 
 a:link { 
@@ -36,14 +37,21 @@ a:link {
 	color: black;
 }
 
-ul { 
-	list-style-type: none;
+a:visited { 
+	color:black;
+}
+
+ul, ol { 
 	margin-left: 0; 
 	padding: 0;
-	font-family: helvetica, arial, verdana; 
 	font-weight: bold;
 
 }
+section h1 { 
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
 
 #topmenu { 
 	font-family: helvetica, arial, verdana; 
@@ -53,12 +61,25 @@ ul {
 #articlemenu ul li {
 	padding-top: 22px;
 	max-width: 230px;
+	font-family: helvetica, arial, verdana; 
+	list-style-type: none;
+
 }
 
 #content { 
 	max-width:700px;
 }
 
+#content p { 
+	font-family: helvetica, arial, verdana;
+	margin-bottom:60px
+
+}
+
+#top { 
+	font-family:bebas_neueregular;
+	font-size: 50px;
+}
 
 
 

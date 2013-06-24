@@ -2,17 +2,12 @@
 max-width: 900px; 
 }
 
-@font-face { 
-	font-family: 'bebasnue-webfont';
-	src: url('Fonts/bebasnue-webfont.eot');
-}
-
 #contact_details { 
 	background-color: #331606;
 	color: bisque;
 }
 
-#main_nav { 
+nav { 
 	background-color: #331606;
 	color: bisque;
 	text-transform: lowercase;
@@ -33,6 +28,11 @@ h3 {
 a:link { 
 	color:bisque;
 	text-decoration: none;
+
+}
+
+a:visited { 
+	color:bisque;
 }
 
 ul { 

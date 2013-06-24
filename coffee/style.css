@@ -1,0 +1,42 @@
+* { 
+max-width: 900px; 
+}
+
+@font-face { 
+	font-family: 'bebasnue-webfont';
+	src: url('Fonts/bebasnue-webfont.eot');
+}
+
+#contact_details { 
+	background-color: #331606;
+	color: bisque;
+}
+
+#main_nav { 
+	background-color: #331606;
+	color: bisque;
+	text-transform: lowercase;
+	font-size: 18px;
+	font-family: Serif;
+}
+
+h3 { 
+	font-family: helvetica;
+	color: #331606;
+}
+
+#article1, #article2 { 
+	max-width:370px;
+	text-align: center
+}
+
+a:link { 
+	color:bisque;
+	text-decoration: none;
+}
+
+ul { 
+	list-style-type: none;
+}
+
+

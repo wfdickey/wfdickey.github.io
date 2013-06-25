@@ -67,9 +67,14 @@ header nav ul {
 }
 
 section h1 { 
+	position: relative;
 	margin-top:15px;
 	margin-bottom:30px;
+}
 
+h1 span {
+	position: absolute;
+	top: -200px;
 }
 
 a:link { 
@@ -85,20 +90,26 @@ a:hover {
 }
 
 #nav_menu { 
-	width:30%;
+	position: fixed;
+	top: 10px;
+	right: 100px;
+	width: 280px;
 	font-family: helvetica, arial, verdana; 
 	float:right;
 	z-index:3;
+
+
 }
 
 #articlemenu { 
-	width:30%;
+	width:25%;
 	float:left;
 	padding-left:5%;
 	margin-top:100px;
-	position:fixed;
 	height:100%;
 	background-color:white;
+	position:fixed;
+	height:auto;
 }
 
 #articlemenu ul li {

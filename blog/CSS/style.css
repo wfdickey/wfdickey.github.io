@@ -1,25 +1,31 @@
-/* My Styling */ 
-
 @font-face {
-    font-family: 'bebas_neueregular';
-    src: url('Fonts/bebasneue-webfont.eot');
-    src: url('Fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/bebasneue-webfont.woff') format('woff'),
-         url('Fonts/bebasneue-webfont.ttf') format('truetype'),
-         url('Fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-family:'BebasNeueRegular';
+    src: url('Type/BebasNeue-webfont.eot');
+    src: url('Type/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Type/BebasNeue-webfont.woff') format('woff'),
+         url('Type/BebasNeue-webfont.ttf') format('truetype'),
+         url('Type/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
+header { 
+	padding-left:5%;
+	padding-right:5%;
+}
+
+hr { 
+	z-index: 1
+}
 
 h1 { 
-	font-family: bebas_neueregular;
+	font-family: 'BebasNeueRegular', helvetica;
 	line-height: 0px;
-	vertical-align: text-top;
 	margin-bottom: 10px;
 	margin-top:40px;
 	font-size: 34px;
 }
+
 
 h3 { 
 	font-family: helvetica, arial, verdana;
@@ -27,8 +33,32 @@ h3 {
 
 h5 { 
 	font-family: helvetica, arial,verdana;
-	vertical-align: text-bottom;
 	margin-bottom: 0px;
+}
+
+
+ul, ol { 
+	margin-left: 0; 
+	padding: 0;
+	font-family: helvetica;
+	font-weight: bold;
+	list-style: none;
+}
+
+nav ul li { 
+	display:inline-block;
+	padding:5px;
+}
+
+header nav ul { 
+	padding:5px;
+	margin: 0;
+}
+
+section h1 { 
+	margin-top:15px;
+	margin-bottom:30px;
+
 }
 
 a:link { 
@@ -43,34 +73,30 @@ a:hover {
 	color:mediumspringgreen;
 }
 
-ul, ol { 
-	margin-left: 0; 
-	padding: 0;
-	font-family: helvetica;
-	font-weight: bold;
-
-}
-section h1 { 
-	margin-top:15px;
-	margin-bottom:30px;
-}
-
-
-#topmenu { 
+#nav_menu { 
+	width:30%;
 	font-family: helvetica, arial, verdana; 
+	float:right;
+	z-index:2;
+}
 
+#articlemenu { 
+	width:30%;
+	float:left;
+	padding-left:5%;
 }
 
 #articlemenu ul li {
 	padding-top: 22px;
 	max-width: 230px;
 	font-family: helvetica, arial, verdana; 
-	list-style-type: none;
-
+	list-style: none;
 }
 
 #content { 
-	max-width:700px;
+	width:60%;
+	float:right;
+	margin-right:5%;
 }
 
 #content p { 
@@ -81,10 +107,21 @@ section h1 {
 }
 
 #top { 
-	font-family:bebas_neueregular;
+	font-family: BebasNeueRegular;
 	font-size: 50px;
+	float-right;
 }
 
+#about { 
+	text-align:center;
+	margin-top:5%;
+}
 
+#about p { 
+	padding: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: left;
+}
 
 

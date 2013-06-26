@@ -1,3 +1,11 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
 a {
   color: white;
   text-decoration: none;
@@ -53,6 +61,7 @@ nav ul {
   list-style: none;
   clear: both;
   margin: 0 auto;
+  padding:0;
   width: 260px;
 }
 
@@ -62,12 +71,10 @@ nav ul li {
   margin-left: 10px;
 }
 
-h1 {
-  margin: 0;
-}
 
 .main article { 
-  width:40%;
+  width:50%;
+  margin:auto;
   padding: 0 5%;
   float: left;  
 }
@@ -75,6 +82,7 @@ h1 {
 .main article h3 { 
   color: #321409;
 }
+
 
 footer { 
   background: #321409;
@@ -86,7 +94,55 @@ footer p {
   margin:0;
 }
 
+/* Contact Page*/
+
 #contact_page h3 { 
   color:black;
 }
+
+/* About Page */
+
+#about { 
+  float:right;
+  width:50%;
+  margin:0;
+  padding:0;
+}
+
+#about_image {
+  float:left;
+  width:50%;
+}
+
+
+#about p { 
+  padding: 10px;
+}
+
+/* Specials Page */
+
+#specials_text { 
+  padding :10px;
+}
+
+/* Beans Page */
+
+
+#beans_image { 
+  float:left;
+  width:50%;
+  margin:0;
+  padding:0;
+}
+#beans_text {
+  float:right;
+  width:50%;
+  margin:0;
+  padding:0;
+}
+
+#beans_text p {
+  margin:10px;
+}
+
 

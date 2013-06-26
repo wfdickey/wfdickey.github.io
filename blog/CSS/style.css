@@ -1,3 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
 @font-face {
     font-family:'BebasNeueRegular';
     src: url('Type/BebasNeue-webfont.eot');
@@ -15,10 +22,15 @@ header {
 	width:100%;
 	margin-right:5%;
 	z-index:1;
+
 }
 
 header img {
+	margin-top:5px;
 	margin-left:5%;
+	height:60px;
+	margin-bottom: none;
+
 }
 
 hr { 
@@ -34,7 +46,7 @@ h1 {
 	line-height: 0px;
 	margin-bottom: 10px;
 	margin-top:40px;
-	font-size: 34px;
+	font-size: 30px;
 }
 
 
@@ -89,9 +101,23 @@ a:hover {
 	color:mediumspringgreen;
 }
 
+
+.clear { 
+	clear:both;
+}
+
+a.anchor {
+position: relative;
+top:-80px;
+display: block;
+height: 0;
+width:0;
+}
+
+
 #nav_menu { 
 	position: fixed;
-	top: 10px;
+	top: 30px;
 	right: 100px;
 	width: 280px;
 	font-family: helvetica, arial, verdana; 
@@ -105,7 +131,7 @@ a:hover {
 	width:25%;
 	float:left;
 	padding-left:5%;
-	margin-top:100px;
+	margin-top:45px;
 	height:100%;
 	background-color:white;
 	position:fixed;
@@ -123,7 +149,7 @@ a:hover {
 	width:60%;
 	float:right;
 	margin-right:5%;
-	margin-top:110px;
+	margin-top:60px;
 }
 
 #content p { 
@@ -139,16 +165,32 @@ a:hover {
 	float-right;
 }
 
+#toplink {
+
+	position:absolute;
+}
+
 #about { 
 	text-align:center;
 	margin-top:5%;
 }
 
-#about p { 
-	padding: 0;
+#about { 
+
+	padding-top: 20px;
 	margin-left: 15%;
 	margin-right: 15%;
 	text-align: left;
+	float:left;
 }
+
+#archivelist {
+	margin-top:100px;
+	float:left;
+	margin-left:30px;
+	list-style-type:upper-roman;
+}
+
+
 
 

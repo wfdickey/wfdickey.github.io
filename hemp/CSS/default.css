@@ -21,37 +21,25 @@ html {
 
 
 .button {
-   border-top: 1px solid #9bb6c7;
    background: #18703a;
-   background: -webkit-gradient(linear, left top, left bottom, from(#33b063), to(#18703a));
-   background: -webkit-linear-gradient(top, #33b063, #18703a);
-   background: -moz-linear-gradient(top, #33b063, #18703a);
-   background: -ms-linear-gradient(top, #33b063, #18703a);
-   background: -o-linear-gradient(top, #33b063, #18703a);
    padding: 15px 30px;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
    border-radius: 8px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: #ffffff;
-   font-size: 14px;
+   font-size: 18px;
    font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    text-align: center;
-   margin-left: 50%
+   margin-left: 48%
    }
 
 .button:hover {
-   border-top-color: #087833;
    background: #087833;
    color: #ccc;
    }
 
 .button:active {
-   border-top-color: #33b567;
    background: #33b567;
   }
 

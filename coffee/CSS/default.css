@@ -182,8 +182,13 @@ footer p {
       padding:0;
       margin:0;
       position:static;
+    }
+    header img {
+      width:20%;
+      margin-right: auto;
+      margin-left: auto;
+    }
 
-  }
     nav {
       width: 98%;
       padding:0;
@@ -195,16 +200,17 @@ footer p {
   }
     nav ul li { 
       display: block;
+      margin-top:1%;
+      font-size: 1.1em
 
 }
     #left { 
       width:100%;
-      clear:both;
+
     }
 
     #right {
       width:100%;
-      clear:both;
     }
 
 }

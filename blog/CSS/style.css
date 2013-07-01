@@ -114,7 +114,7 @@ a:hover {
 
 
 #nav_menu { 
-
+	position:fixed;
 	top: 30px;
 	right: 100px;
 	width: 280px;
@@ -196,7 +196,7 @@ a:hover {
 
 /*For Mobile Screens */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	header { position:static;
 			width:100%;
 	}
@@ -206,7 +206,7 @@ a:hover {
 	}
 
 	#header img {
-		width:100%;
+		width:50%;
 	}
 
 	#articlemenu {
@@ -215,6 +215,7 @@ a:hover {
 	}
 
 	#nav_menu {width:98%;
+		position:static;
 
 	}
 

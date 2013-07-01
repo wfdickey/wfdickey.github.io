@@ -2,6 +2,9 @@ div {
     height: 100px;
     width: 100px;
     border-radius: 5px;
+    margin:1%;
+    float:left;
+
 }
 
 #red {
@@ -27,4 +30,29 @@ div {
 #purple {
 	background-color: purple;
 }
+
+#red1 {
+	background-color: red;
+}
+
+#orange1 {
+	background-color: orange;
+}
+
+#yellow1 {
+	background-color: yellow;
+}
+
+#green1 {
+	background-color: green;
+}
+
+#blue1 {
+	background-color: blue;
+}
+
+#purple1 {
+	background-color: purple;
+}
+
 

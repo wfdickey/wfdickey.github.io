@@ -33,3 +33,39 @@ $(document).ready(function() {
         $('#purple').fadeOut('slow');
     });
 });
+
+$(document).ready(function() {
+    $('#red1').click(function() {
+        $('#red1').fadeOut('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#orange1').click(function() {
+        $('#orange1').fadeOut('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#yellow1').click(function() {
+        $('#yellow1').fadeOut('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#green1').click(function() {
+        $('#green1').fadeOut('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#blue1').click(function() {
+        $('#blue1').fadeOut('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#purple1').click(function() {
+        $('#purple1').fadeOut('slow');
+    });
+});

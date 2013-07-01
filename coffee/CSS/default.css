@@ -79,7 +79,7 @@ a:hover {
 with white background; */ 
 
 #container {
-  width: 960px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   background: white;
@@ -170,4 +170,42 @@ footer p {
   margin:10px;
 }
 
+
+@media screen and (max-width: 480px) {
+
+    body {
+      width:100%;
+    }
+
+    header { 
+      width: 98%;
+      padding:0;
+      margin:0;
+      position:static;
+
+  }
+    nav {
+      width: 98%;
+      padding:0;
+      margin:0;
+
+}
+    nav ul {
+      width: 98%;
+  }
+    nav ul li { 
+      display: block;
+
+}
+    #left { 
+      width:100%;
+      clear:both;
+    }
+
+    #right {
+      width:100%;
+      clear:both;
+    }
+
+}
 

@@ -196,6 +196,11 @@ a:hover {
 
 /*For Mobile Screens */
 
+@media screen and (max-width:800px) {
+
+	h1 {font-size: 1.2em
+		}
+
 @media screen and (max-width: 500px) {
 	header { position:static;
 			width:100%;
@@ -223,5 +228,7 @@ a:hover {
     	}
   }
 }
+
+
 
 

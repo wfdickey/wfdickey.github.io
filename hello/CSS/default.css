@@ -7,21 +7,17 @@
 #home { 
 background: url(../Images/background.jpg) 50% 0 repeat fixed; min-height: 1000px;
  height: 1000px; 
-  margin: 0 auto; 
+  margin: auto; 
   width: 100%; 
   max-width: 1920px;
  position: relative;
 }
 
-#home article { 
-  position: absolute; 
-  width: 100%; 
-}
  
 #about { 
 	background: url(../Images/background2.jpg) 50% 0 no-repeat; min-height: 1000px;  
 	height: 1000px; 
-	margin: 0 auto; 
+	margin: 0 auto;
 	width: 100%; 
 	max-width: 1920px; 
 	position: relative; 
@@ -39,9 +35,6 @@ background: url(../Images/background.jpg) 50% 0 repeat fixed; min-height: 1000px
   color:white;
 }
 
-body { 
-	text-rendering: optimizeLegibility;
-}
 
 
 @font-face {
@@ -57,6 +50,7 @@ body {
 a {
   text-decoration: none;
   color: #DD6C4F;
+  font-size: 30px;
 }
 
 a:hover {
@@ -84,16 +78,20 @@ h1 {
 .icon-cw:after       { content: "\27f3"; } 
 .icon-location:after { content: "\e724"; }
 
+
 .nav {
-  list-style: none;
-  text-align: center;
+  margin: 0 auto;
+  position:fixed;
+  padding:0;
+  width:100%;
+
+
 }
 
 .nav li {
-  margin-top:0;
-  position: relative;
-  display: inline-block;
-  margin-right: -4px;
+ 	margin:0 auto;
+  	display: inline-block;
+  
 }
 
 
@@ -122,11 +120,18 @@ h1 {
   text-decoration: none;
   color: #555;
   background: #f5f5f5;
+  font-size: 30px;
+  width:72px;
+  height:72px;
+  line-height:72px;
 }
 
  #mainlogo {
  	width:50%;
- 	margin-left: 26%;
- 	margin-top:5%;
-}
+ 	margin: 0 auto;
+ }
+
+ header {
+ 	margin:0 auto;
+ }
 

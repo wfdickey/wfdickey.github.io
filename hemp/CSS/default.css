@@ -5,11 +5,23 @@
 }
 
 html { 
-  background: url(http://imgur.com/FHQM0kl,Ir1yKY7,fVbgsv5#2) no-repeat center center fixed; 
+  background: url(http://i.imgur.com/fVbgsv5.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+  max-width: 960px;
+  margin:0 auto;
+  height:100%;
+  width:100%;
+}
+
+header {
+  width: 100%;
+  float:left;
 }
 
 #splash_header{
@@ -44,7 +56,6 @@ html {
 
 #store-header {
 	width:100%;
-	margin-top:110%;
 }
 
 #store-header img {
@@ -78,12 +89,105 @@ a:link {
 	color:white;
 }
 
+a:visited {
+  text-decoration: none;
+  color:white;
+}
 
-h2 {
-	color:white;
+
+h1, h2 {
+  padding:0;
+  margin:0;
+  color: white;
+}
+
+h3 {
+  padding:0;
+  margin:0;
+}
+
+#content {
+  height:100%;
+  width:100%;
 }
 
 #main-image {
+  display:block;
 	width:900px;
+  margin:0 auto;
 }
+
+#bottom_nav {
+  display:block;
+  margin:0 auto;
+  text-align: center;
+  width:100%;
+  height:150px;
+}
+
+#bottom_nav div {
+  text-align: center;
+}
+
+#bottom_nav a h3 {
+  margin-top:20%;
+}
+
+#bottom_nav a div {
+  display:inline-block;
+  text-align: center;
+  margin: 3%;
+}
+
+.bottom_nav_window {
+  width:15%;
+  height:90px;
+}
+
+#men_box {
+  background:rgba(204, 204, 204,0.5);
+}
+
+#women_box {
+  background-color: rgba(204, 204, 204,0.5);
+
+}
+
+#body_box {
+  background-color: rgba(204, 204, 204,0.5);
+  
+
+}
+
+#accessories_box {
+  background-color: rgba(204, 204, 204,0.5);
+ 
+}
+
+.men_window {
+  width:165px;
+  height:165px;
+  margin:10px;
+  background:orange;
+  float:left;
+  text-align: center:;
+}
+
+.women_window {
+  width:165px;
+  height:165px;
+  margin:10px;
+  background:orange;
+  float:left;
+  text-align: center:;
+}
+
+
+
+
+
+
+
+
+
 

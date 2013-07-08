@@ -83,6 +83,12 @@ body {
     text-align: right;
 }
 
+#header img {
+    margin-top:20px;
+    margin-left:220px;
+    width:170px;
+}
+
 #navigation {
     margin-top: 20px;
     width: 150px;

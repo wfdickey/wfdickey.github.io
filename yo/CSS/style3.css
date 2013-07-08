@@ -1,10 +1,24 @@
+/* Fonts */
+
 @font-face {
     font-family: 'code_boldregular';
-    src: url('Font/code_bold-webfont.eot');
-    src: url('Font/code_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Font/code_bold-webfont.woff') format('woff'),
-         url('Font/code_bold-webfont.ttf') format('truetype'),
-         url('Font/code_bold-webfont.svg#code_boldregular') format('svg');
+    src: url('Font/Code_Bold/code_bold-webfont.eot');
+    src: url('Font/Code_Bold/code_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/Code_Bold/code_bold-webfont.woff') format('woff'),
+         url('Font/Code_Bold/code_bold-webfont.ttf') format('truetype'),
+         url('Font/Code_Bold/code_bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'dekarregular';
+    src: url('Font/Dekar/dekar-webfont.eot');
+    src: url('Font/Dekar/dekar-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/Dekar/dekar-webfont.woff') format('woff'),
+         url('Font/Dekar/dekar-webfont.ttf') format('truetype'),
+         url('Font/Dekar/dekar-webfont.svg#dekarregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -39,7 +53,7 @@ body {
     overflow-y: auto;
     font-family: 'code_boldregular';
 }
-#left {
+.left {
     width:414px;
     height:100%;
     border-right:1px solid;
@@ -60,7 +74,7 @@ body {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
-    color: black
+    color: black;
     text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
     padding: 20px;
     text-align: right;
@@ -102,18 +116,21 @@ body {
     padding: 10px 0px 20px 0px;
     margin-top: 0px;
     margin-bottom:0px;
-    color: black;
+    color: #41fbab;
     text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 }
 .content p{
+    font-family:'dekarregular';
     font-size: 18px;
     padding: 10px;
     line-height: 24px;
-    color: #fff;
+    color: black;
     display: inline-block;
     padding: 10px;
     margin: 3px 0px;
 }
+
+
 
 
 .panel{
@@ -129,7 +146,6 @@ body {
     -o-transition: all .7s ease-in-out;
     -ms-transition: all .7s ease-in-out;
     transition: all .7s ease-in-out;
-    display:hidden;
 }
 
 .panel:target{
@@ -138,10 +154,10 @@ body {
 
 
 
-#home:target ~ #left  #header #navigation #link-home,
-#portfolio:target ~ #left  #header #navigation #link-portfolio,
-#about:target ~ #left  #header #navigation #link-about,
-#contact:target ~ #left  #header #navigation #link-contact{
+.right #home:target ~ .left  #header #navigation #link-home,
+.right #portfolio:target ~ .left  #header #navigation #link-portfolio,
+.right #about:target ~ .left  #header #navigation #link-about,
+.right #contact:target ~ .left  #header #navigation #link-contact{
     color: #41fbab;
 }
 
@@ -166,3 +182,5 @@ body {
     0%{top:-30px; opacity: 0;}
     100%{top:0px; opacity: 1;}
 }
+
+

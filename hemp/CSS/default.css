@@ -2,10 +2,11 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+
 }
 
 html { 
-  background: url(http://i.imgur.com/fVbgsv5.jpg) no-repeat center center fixed; 
+  background: url(../Images/homebackground.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,19 +17,21 @@ body {
   max-width: 960px;
   margin:0 auto;
   height:100%;
-  width:100%;
 }
 
-header {
-  width: 100%;
-  float:left;
-}
+
+
+/* SPLASH PAGE STYLING */
 
 #splash_header{
+  float:left;
+  width:100%;
 	text-align:center;
-	margin-top:200px;
+	margin-top: 100px;
+}
 
-
+#button {
+  text-align: center;
 }
 
 .button {
@@ -42,8 +45,7 @@ header {
    font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    text-align: center;
-   margin-left: 48%
-   }
+  }
 
 .button:hover {
    background: #087833;
@@ -54,16 +56,33 @@ header {
    background: #33b567;
   }
 
+/* -------------- */ 
+
+
+/* STORE PAGE */
+
+
 #store-header {
 	width:100%;
 }
 
 #store-header img {
-	float:left;
-	width:30%;
+  width:30%;
+  float:left;
 }
 
+#top-nav {
+  float:left;
+  width:70%;
+}
 
+footer {
+  bottom:0;
+  width:960px;
+  position: absolute;
+  margin: 0 auto;
+
+}
 
 ul {
 	color:white;
@@ -117,26 +136,106 @@ h3 {
   margin:0 auto;
 }
 
-#bottom_nav {
-  display:block;
-  margin:0 auto;
+/*Cool Menu*/
+
+
+.cn-container{
+  width: 100%;
+  min-width: 300px;
+  max-width: 960px;
+  margin: 10px auto 0 auto;
+  text-align: right;
+  position: relative;
+  z-index: 4000
+}
+.cn-container h2{
+  font-family: Arial, sans-serif;
+  color: greens;
+  position: absolute;
+  z-index: 1000;
+  text-shadow: 0 0 1px rgba(255,255,255,0.8), 1px 1px 1px rgba(0,0,0,0.2);
+  font-size: 50px;
+  line-height: 80px;
+  top: 0px;
+  right: 800px;
+  white-space: nowrap;
+  opacity: 0;
+  -webkit-transition: all 0.5s linear 0.4s;
+  -moz-transition: all 0.5s linear 0.4s;
+  -o-transition: all 0.5s linear 0.4s;
+  -ms-transition: all 0.5s linear 0.4s;
+  transition: all 0.5s linear 0.4s;
+}
+.cn-container .cn-slide:target h2{
+  right: 0px;
+  opacity: 1;
+}
+.cn-slide{
+  left: 0;
+  padding-top: 100px;
+  margin: 0 10%;
+  width: 960px;
+  opacity: 1;
+  -webkit-transition: left 0.4s linear, opacity 0.4s linear;
+  -moz-transition: left 0.4s linear, opacity 0.4s linear;
+  -o-transition: left 0.4s linear, opacity 0.4s linear;
+  -ms-transition: left 0.4s linear, opacity 0.4s linear;
+  transition: left 0.4s linear, opacity 0.4s linear;
+}
+.cn-slide:target{
+  left: 0px;
+  opacity: 1;
+}
+.cn-slide nav a{
   text-align: center;
+  display: block;
+  float:left;
+  width:40%;
+  font-family:  Arial, sans-serif;
+  border: 8px solid white;
+  padding: 5%;
+  font-size: 45px;
+  letter-spacing: 7px;
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+  color: rgba(255,255,255,0.1);
+  line-height: 66px;
+  margin: 5px;
+  outline: none;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  background: no-repeat center center;
+  -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; 
+  background-clip: padding-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cn-slide nav a:hover{
+  box-shadow: 1px 3px 7px rgba(0,0,0,0.25);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  color: rgba(255,255,255,0.9);
+}
+/* Main Items */
+.cn-slide nav a[href="men.html"]{
+  background-image: url(../Images/men.gif);
+}
+.cn-slide nav a[href="women.html"]{
+  background-image: url(../Images/women.jpg);
+}
+.cn-slide nav a[href="body.html"]{
+  background-image: url(../Images/body.jpeg);
+}
+.cn-slide nav a[href="accessories.html"]{
+  background-image: url(../images/3.jpg);
+
+}
+
+.tint {
+  float:left;
+  background-color:rgba(0,0,0,0.25);
   width:100%;
-  height:150px;
-}
-
-#bottom_nav div {
-  text-align: center;
-}
-
-#bottom_nav a h3 {
-  margin-top:20%;
-}
-
-#bottom_nav a div {
-  display:inline-block;
-  text-align: center;
-  margin: 3%;
+  height: 100%
 }
 
 .bottom_nav_window {
@@ -144,25 +243,6 @@ h3 {
   height:90px;
 }
 
-#men_box {
-  background:rgba(204, 204, 204,0.5);
-}
-
-#women_box {
-  background-color: rgba(204, 204, 204,0.5);
-
-}
-
-#body_box {
-  background-color: rgba(204, 204, 204,0.5);
-  
-
-}
-
-#accessories_box {
-  background-color: rgba(204, 204, 204,0.5);
- 
-}
 
 .men_window {
   width:165px;
@@ -181,6 +261,7 @@ h3 {
   float:left;
   text-align: center:;
 }
+
 
 
 

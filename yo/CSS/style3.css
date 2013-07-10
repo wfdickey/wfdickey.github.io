@@ -84,7 +84,7 @@ body {
     position: absolute;
     opacity: 0;
     overflow: hidden;
-    color: #6b969d;
+    color: #509A72;
     -webkit-animation: rotateWord 18s linear infinite 0s;
     -moz-animation: rotateWord 18s linear infinite 0s;
     -o-animation: rotateWord 18s linear infinite 0s;
@@ -97,7 +97,7 @@ body {
     -o-animation-delay: 3s; 
     -ms-animation-delay: 3s; 
     animation-delay: 3s; 
-    color: #6b889d;
+    color: #509A72;
 }
 .rw-words-1 span:nth-child(3) { 
     -webkit-animation-delay: 6s; 
@@ -105,7 +105,7 @@ body {
     -o-animation-delay: 6s; 
     -ms-animation-delay: 6s; 
     animation-delay: 6s; 
-    color: #6b739d; 
+    color: #509A72; 
 }
 .rw-words-1 span:nth-child(4) { 
     -webkit-animation-delay: 9s;
@@ -113,7 +113,7 @@ body {
     -o-animation-delay: 9s; 
     -ms-animation-delay: 9s; 
     animation-delay: 9s; 
-    color: #7a6b9d;
+    color: #509A72;
 }
 .rw-words-1 span:nth-child(5) { 
     -webkit-animation-delay: 12s; 
@@ -121,7 +121,7 @@ body {
     -o-animation-delay: 12s; 
     -ms-animation-delay: 12s; 
     animation-delay: 12s; 
-    color: #8d6b9d;
+    color: #509A72;
 }
 .rw-words-1 span:nth-child(6) { 
     -webkit-animation-delay: 15s;
@@ -129,7 +129,7 @@ body {
     -o-animation-delay: 15s; 
     -ms-animation-delay: 15s; 
     animation-delay: 15s; 
-    color: #9b6b9d;
+    color: #509A72;
 }
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
@@ -249,11 +249,11 @@ body {
 }
 .content h2{
     letter-spacing: .1em;
-    font-size: 70px;
-    padding: 10px 0px 20px 0px;
-    margin-top: 20px;
-    margin-bottom:0px;
-    color: #41fbab;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 90px;
+    margin-left:30px;
+    color: #509A72;
     text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 }
 .content p{
@@ -298,7 +298,7 @@ body {
 #portfolio:target ~ .left  #header #navigation #link-portfolio,
 #about:target ~ .left  #header #navigation #link-about,
 #contact:target ~ .left  #header #navigation #link-contact{
-    color: #41fbab;
+    color: #509A72;
 }
 
 

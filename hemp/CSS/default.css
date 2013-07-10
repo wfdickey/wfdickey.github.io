@@ -16,10 +16,34 @@ html {
 body {
   max-width: 960px;
   margin:0 auto;
+  width:100%;
   height:100%;
 }
 
+hr {
+  size: 2px;
+  background-color:white;
+  clear: both;
+}
 
+a {
+  font-family: courier;
+}
+
+p {
+  font-family: courier;
+  color: #fff;
+}
+
+#main_about {
+  padding-top:10px;
+  padding-bottom: 10px;
+  clear:left;
+  text-align: center;
+  margin:0;
+  max-width: 80%;
+  margin: 0 auto;
+}
 
 /* SPLASH PAGE STYLING */
 
@@ -138,41 +162,23 @@ h3 {
 
 /*Cool Menu*/
 
+div .container {
+  margin:0;
+}
 
 .cn-container{
   width: 100%;
-  min-width: 300px;
-  max-width: 960px;
-  margin: 10px auto 0 auto;
+  min-width: auto;
+  max-width: auto;
+  margin: 0 auto;
   text-align: right;
   position: relative;
   z-index: 4000
 }
-.cn-container h2{
-  font-family: Arial, sans-serif;
-  color: greens;
-  position: absolute;
-  z-index: 1000;
-  text-shadow: 0 0 1px rgba(255,255,255,0.8), 1px 1px 1px rgba(0,0,0,0.2);
-  font-size: 50px;
-  line-height: 80px;
-  top: 0px;
-  right: 800px;
-  white-space: nowrap;
-  opacity: 0;
-  -webkit-transition: all 0.5s linear 0.4s;
-  -moz-transition: all 0.5s linear 0.4s;
-  -o-transition: all 0.5s linear 0.4s;
-  -ms-transition: all 0.5s linear 0.4s;
-  transition: all 0.5s linear 0.4s;
-}
-.cn-container .cn-slide:target h2{
-  right: 0px;
-  opacity: 1;
-}
+
 .cn-slide{
   left: 0;
-  padding-top: 100px;
+  padding-top: 0px;
   margin: 0 10%;
   width: 960px;
   opacity: 1;
@@ -200,13 +206,11 @@ h3 {
   letter-spacing: 7px;
   text-shadow: 0px 0px 10px rgba(255,255,255,0.9);
   color: rgba(255,255,255,0.1);
-  line-height: 66px;
   margin: 5px;
   outline: none;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
   background: no-repeat center center;
   -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; 
-  background-clip: padding-box;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -240,10 +244,7 @@ h3 {
   height: 100%
 }
 
-.bottom_nav_window {
-  width:15%;
-  height:90px;
-}
+
 
 
 .men_window {

@@ -181,6 +181,7 @@ body {
 
 
 
+
 #header{
     position: fixed;
     z-index: 2000;
@@ -235,10 +236,15 @@ body {
     float:right;
 }
 
+#about_me {
+    margin-top: 7%;
+}
+
 #about_me_text {
     width:70%;
     float:left;
 }
+
 
 
 .content{
@@ -269,10 +275,6 @@ body {
 
 
 
-
-
-
-
 .panel{
 
     width: 100%;
@@ -288,6 +290,7 @@ body {
     transition: all .7s ease-in-out;
 }
 
+
 .panel:target{
     margin-left: 0%;
 }
@@ -300,6 +303,7 @@ body {
 #contact:target ~ .left  #header #navigation #link-contact{
     color: #509A72;
 }
+
 
 
 @-webkit-keyframes slideOut{

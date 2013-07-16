@@ -396,12 +396,12 @@ body {
 }
 .content h2{
     letter-spacing: .1em;
-    font-size: 50px;
+    font-size: 36px;
     padding: 0;
     margin-top: 90px;
     margin-left:30px;
     color: #509A72;
-    text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+
 }
 .content p{
     font-family:'dekarregular';
@@ -470,9 +470,7 @@ body {
 
 
 /* Radio Demo Style */
-a{
-    color: #333;
-    text-decoration: none;
+
 }
 .container{
     width: 100%;
@@ -515,7 +513,7 @@ a{
 /*Portfolio Image Viewer*/
 
 .portfolio-lg {
-    margin-top: 60px;
+    margin-top: 0px;
     float:left;
     width:50%;
 
@@ -536,7 +534,7 @@ a{
     margin-top: 45px;
 }
 
- #caption_back_button {
+ .caption_back_button {
    float:left;
    font-family: 'dekarregular', sans-serif;
     width: 15%;
@@ -544,6 +542,7 @@ a{
     margin-top: 40px;
     margin-left: 60px;
     padding-bottom: 14px;
+    padding-top: 14px;
     cursor: pointer;
     color: #777;
     text-align: center;
@@ -561,6 +560,19 @@ a{
 }
 }
 
+
+
+/* Blog Markup */ 
+
+a .in-textlink {
+    color:green;
+    font-weight: bold;
+}
+
+a:visited {
+    color:green;
+    font-weight: bold;
+}
 
 /*For Mobile Screens */
 

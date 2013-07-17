@@ -25,7 +25,6 @@
 }
 
 
-
 /* Radio Button Grid */
 
 .ff-container{
@@ -564,6 +563,7 @@ body {
 
 /* Blog Markup */ 
 
+
 a .in-textlink {
     color:green;
     font-weight: bold;
@@ -573,6 +573,15 @@ a:visited {
     color:green;
     font-weight: bold;
 }
+
+
+/* Font Awesome */ 
+
+i {
+    color:black;
+}
+
+
 
 /*For Mobile Screens */
 

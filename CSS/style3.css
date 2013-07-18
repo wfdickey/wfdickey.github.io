@@ -162,6 +162,7 @@
 
 a{
     text-decoration: none;
+    color:green;
 }
 
 html {
@@ -440,7 +441,7 @@ body {
 
 #home:target ~ .left  #header #navigation #link-home,
 #portfolio:target ~ .left  #header #navigation #link-portfolio,
-#blog:target ~ .left  #header #navigation #link-blog,
+#blog:target ~ .left  #header #navigation #link-blog
 {
     color: #509A72;
 }
@@ -555,10 +556,6 @@ body {
 /* Blog Markup */ 
 
 
-a .in-textlink {
-    color:green;
-    font-weight: bold;
-}
 
 a:visited {
     color:green;
@@ -592,19 +589,18 @@ you can use the generic selector below, but it's slower:
 */
 
 #iconav {
-    list-style-type: none;
     position:absolute;
     bottom:0;
-    margin-left: 70%
+    margin-left: 70%;
+
 }
 
 .hi-icon {
-    display: inline-block;
     font-size: 0px;
     cursor: pointer;
     margin: 10px 30px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     text-align: center;
     position: relative;
@@ -629,8 +625,8 @@ you can use the generic selector below, but it's slower:
 .hi-icon:before {
     font-family: 'icomoon';
     speak: none;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 30px;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;

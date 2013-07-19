@@ -13,6 +13,19 @@
 }
 
 @font-face {
+    font-family: 'code_lightregular';
+    src: url('Font/Code_Light/code_light-webfont.eot');
+    src: url('Font/Code_Light/code_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/Code_Light/code_light-webfont.woff') format('woff'),
+         url('Font/Code_Light/code_light-webfont.ttf') format('truetype'),
+         url('Font/Code_Light/code_light-webfont.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
     font-family:'dekarregular';
     src: url('Font/Dekar/dekar-webfont.eot');
     src: url('Font/Dekar/dekar-webfont.eot?#iefix') format('embedded-opentype'),
@@ -24,6 +37,10 @@
 
 }
 
+
+#wrapper {
+    letter-spacing: .2em;
+}
 
 /* Radio Button Grid */
 
@@ -183,6 +200,10 @@ body {
     overflow-y: auto;
     font-family: 'code_boldregular';
 }
+
+
+
+
 .left {
     width:414px;
     height:100%;
@@ -194,7 +215,10 @@ body {
 
 
 
+
+
 /* Alternating Text */
+
 
 #wrapper {
     margin-left: 30px;
@@ -209,6 +233,7 @@ body {
 .rw-words{
     display: inline;
     text-indent: 10px;
+    letter-spacing: .2em;
 }
 .rw-words-1 span{
     position: absolute;
@@ -333,18 +358,20 @@ body {
     border-right-color:black;
 }
 #header h1{
+    font-family: 'code_lightregular';
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     color: black;
     padding: 20px;
     text-align: right;
+    letter-spacing: .2em;
 }
 
 #header img {
-    margin-top:20px;
-    margin-left:220px;
-    width:170px;
+    margin-top:0px;
+    margin-left:173px;
+    width:220px;
 }
 
 #navigation {
@@ -353,8 +380,10 @@ body {
     margin-left:260px;
     display:block;
     list-style:none;
+    letter-spacing: .25em;
     z-index:3;
     padding:0;
+    margin-right:10px;
     
 
 
@@ -363,7 +392,7 @@ body {
     color: black;
     display: block;
     line-height: 50px;
-    padding: 0px 20px;
+    padding-right:20px;
     text-transform: uppercase;
     text-align:right;
     margin-bottom: 6px;

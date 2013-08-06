@@ -177,6 +177,8 @@
 
 /* General Demo Style */
 
+
+
 a{
     text-decoration: none;
     color:green;
@@ -200,7 +202,6 @@ body {
     overflow-y: auto;
     font-family: 'code_boldregular';
 }
-
 
 
 
@@ -349,6 +350,7 @@ body {
 
 
 
+
 #header{
     position: fixed;
     z-index: 2000;
@@ -405,7 +407,7 @@ body {
 #pixelme {
     width:20%;
     float:right;
-    margin-right: 5%
+    margin-right: 10%
 }
 
 #about_me {
@@ -417,6 +419,9 @@ body {
     float:left;
 }
 
+#iconphoto {
+    margin-top:30px;
+}
 
 
 .content{
@@ -429,11 +434,24 @@ body {
     letter-spacing: .1em;
     font-size: 36px;
     padding: 0;
-    margin-top: 90px;
+    margin-top: 180px;
     margin-left:30px;
-    color: #509A72;
 
 }
+
+.content h3 {
+    font-size:28px;
+    margin-left: 30px;
+}
+
+.content b {
+    margin-left:30px;
+    font-family: 'dekarregular';
+    font-style:bold;
+}
+
+    
+
 .content p{
     font-family:'dekarregular';
     font-size: 18px;
@@ -443,6 +461,15 @@ body {
     display: inline-block;
     padding: 10px;
     margin: 3px 20px;
+    margin-right: 40px;
+}
+
+.content .stat {
+    margin:0;
+}
+
+.content h4 {
+    margin-left: 30px;
 }
 
 
@@ -543,11 +570,24 @@ body {
 
 /*Portfolio Image Viewer*/
 
+
+.portfolio-full {
+    margin-left: 15px;
+    margin-right:5px;
+}
+
+
 .portfolio-lg {
-    margin-top: 0px;
+    margin-top: 60px;
     float:left;
     width:50%;
 
+}
+
+.portfolio-third {
+    margin-top: 0;
+    float:left;
+    width:60%;
 }
 
 .image_caption {
@@ -557,6 +597,12 @@ body {
 
 }
 
+.content .image_caption_third {
+    margin-right: 200px;
+}
+
+
+
 .img_cap_content {
     margin-top:130px;
 }
@@ -565,21 +611,12 @@ body {
     margin-top: 45px;
 }
 
- .caption_back_button {
-   float:left;
-   font-family: 'dekarregular', sans-serif;
-    width: 50px;
-    height: 20px;
-    margin-top: 40px;
-    margin-left: 60px;
-    padding-bottom: 14px;
-    padding-top: 14px;
-    cursor: pointer;
-    color: #777;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-    font-size: 24px;
+.caption_back_button {
+    position:absolute;
+    margin-top:100px;
+    margin-left: 50px;
 }
+
 
 
 

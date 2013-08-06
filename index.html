@@ -65,8 +65,8 @@
 				<input id="select-type-all" name="radio-set-1" type="radio" class="ff-selector-type-all" checked="checked" />
 				<label for="select-type-all" class="ff-label-type-all">All</label>
 				
-				<!-- <input id="select-type-1" name="radio-set-1" type="radio" class="ff-selector-type-1" />
-				<label for="select-type-1" class="ff-label-type-1">Projects</label> !-->
+				<input id="select-type-1" name="radio-set-1" type="radio" class="ff-selector-type-1" />
+				<label for="select-type-1" class="ff-label-type-1">Featured</label> 
 				
 				<input id="select-type-2" name="radio-set-1" type="radio" class="ff-selector-type-2" />
 				<label for="select-type-2" class="ff-label-type-2">Graphics</label>
@@ -77,6 +77,28 @@
 				<div class="clr"></div>
 				
 				<ul class="ff-items">
+
+
+					<li class="ff-item-type-1">
+						<a href="#djwithfriends">
+							<span>DJ With Friends</span>
+							<img src="Images/djwithfriends.png" />
+						</a>
+					</li>
+
+					<li class="ff-item-type-1">
+						<a href="#ghanaproject">
+							<span>Social Innovation Design</span>
+							<img src="Images/ghanaproject.png" />
+						</a>
+					</li>
+						<li class="ff-item-type-2">
+						<a href="#mtrainier">
+							<span>Mt. Rainier Pixels</span>
+							<img src="Images/9.jpg" />
+						</a>
+					</li>
+
 					<li class="ff-item-type-2">
 						<a href="#misty_dailey">
 							<span>Misty Dailey Award</span>
@@ -95,12 +117,7 @@
 							<img src="Images/4.jpg" />
 						</a>
 					</li>
-					<li class="ff-item-type-2">
-						<a href="#mtrainier">
-							<span>Mt. Rainier Pixels</span>
-							<img src="Images/9.jpg" />
-						</a>
-					</li>
+					
 					<li class="ff-item-type-2">
 						<a href="#albumart">
 							<span>Album Art</span>
@@ -163,12 +180,223 @@
 </div>
 
 
+<div id="djwithfriends" class="panel">
+			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio </a>
+
+
+				<div class="img_cap_content_full">
+
+				<h2> DJ With Friends: The Design Process </h2>
+
+				<img class="portfolio-full" src="Images/djwithfriendssplash.jpg"/>
+				<h3> The Challenge </h3>
+
+
+				<p class="image_caption_full"> For a design challenge I was given the open-ended task of designing an app idea as much as possible within a four-day period. I decided to create a music app that I had been toying with in my mind for some time, but never fully fleshed out visually.  The problem I was addressing was the demand of many people at parties to interact with the music that is being played. This happens in a variety of manners. People want to know what the song is that’s playing, they want to suggest songs and some people want to connect with others based on song preferences. 
+
+				<h3> The Solution </h3>
+				<p class="image_caption_full"> My solution addresses all of these needs in an elegant application: DJ With Friends. The app allows users to view a communal playlist, add and vote on songs and communicate with other partiers.</p> 
+
+				<p>You can view the final prototype <a href="https://www.flinto.com/p/bd36f5be"> here. </a></p> <br>
+
+				<b>Conceptualizing, notes, competitive research, etc:</b><p class="stat"> 2 hours </p><br>
+				<b>Wireframing:</b><p class="stat"> 1 hour </p><br>
+				<b>Hi-res design:</b><p class="stat"> 3 hours </p> <br>
+				<b>Total Project Length:</b> <p class="stat"> 6 hours </p> <br>
+
+				<h3>Part 1: Research / Notes</h3>
+				<img class="portfolio-full" src="Images/wireframe1.jpg"/>
+				<p > I spent some time organizing my thoughts. I asked more questions to try and frame the problem from my own experience. Questions such as: “In what situations is music being played when I’m with a group of people?”, “How is it decided who controls the music?”, and “Where does the music come from?” <br>
+ 
+				<p >I wrote down the main functionalities of the product, so I could have a baseline for the wireframes. These included:</p>
+				<ul class="text_list">
+					<li><p>The ability to add a song to the group playlist</P></li>
+					<li><p> The ability to  vote on the playlist </p></li>
+					<li><p> The ablility to interact with other users </p></li>
+				</ul> 
+
+				<p>I took the liberty to toss out as many pre-conceived notions regarding business logistics as I could fathom. For example, I didn’t want the fact that I might need music licensing contracts derail my idea that people should be able to have streaming access to every song they can think of. I wanted to bear as much business complexity as possible in order to deliver the best possible experience to the customer.</p><br>
+
+				<p> I researched other apps that had similar functionalities and discovered opportunities for improverment. As well as positive features that I could build upon in my own version. </p> 
+ 
+				<p >In this process, I determined that the concept of a shared playlist that could be voted on by users within the app was the central idea. I wanted something that was engaging, but not too distracting in a party atmosphere. 
+ 				</p> 
+
+
+
+				<p>Other features I felt were important to a delightful in-app experience, but did not design flows for, included:</p>
+
+				<ul class="text_list">
+					<li><p> Rewards for being an awesome DJ <p> </li>
+					<li><p> Seeing which songs have already been played </p></li>
+					<li><p>Setting up a new playlist.</p></li>
+				</ul>
+
+				<p>In being respectful of advised time constraints, I focused on the main flow of logging into the party, viewing, voting on, and selecting music, and communicating with other partiers. </p>
+
+					<br>
+					<br>
+
+			<h3>Part 2: Wireframing / Testing</h3>
+			<img class="portfolio-full" src="Images/djwireframes2.jpg">
+			<p>After jotting down a flow I was comfortable with, I took to wireframing. I used a combination of pens, notecards, and Balsamiq for this process. Since I wanted to have a unified feel, I left out any iPhone GUI elements that would take away from the in-app experience. </p>
+
+		
+
+			<p> I decided it was important to include the following steps:</p>
+				<ul>
+					<li><p>Home screen (logging in with Facebook)</p></li> 
+					<li><p>Party selection (where am I listening to this music?) </p></li>
+					<li> <p>Playlist view (what songs are playing right now)</p> </li>
+					<li><p>Voting (How can I give feedback to the song selection)</p></li>
+					<li><p>Song Selection (how can I add to the playlist?)</p></li>
+					<li><p>Party view (who are the other users?)</p></li>
+					<li><p>Chat (how do I connect with other users?)</p></li>
+				</ul>
+			<p> With these steps in mind, I created basic wireframes on index cards and used these for user testing. This involved spreading the cards out in front of a user (in no particular order) and having them piece together a process for a specific task such as "Select a song" or "Chat with another user". </p>
+
+			<p> Once I had determined a fluid order,  discarded screens that were redundant or unnecessary, and added screens for additional clarity, I went into Balsamiq to create a more mobile-looking layout.</p> 
+
+			<h3>Part 3: Hi-Res Mockups</h3>
+
+			<img class="portfolio-full" src="Images/hiresbanner.jpg">
+
+			<p> With the Balsamiq screens finished, I had the information and blueprints needed for creating high-resolution mockups. The purpose of these mockups was to give myself and the user the most realisic version of the app possible, without it actually being the app.</p>
+
+			<p> To make these mockups I used a combination of Photoshop, Adobe Illustrator, and <a href="http://thenounproject.com/"> The Noun Project. </a></p> 
+
+			<p> From an aesthetic perspective, I wanted to use color that reflected an energized, yet soothing party atmosphere. This was so the app could be utilized in different contexts. I went with the minty-green color to satisfy this. The typography I chose was Helvetica Neue for the app text and DecoNeue for the logo. I really liked the way the DecoNeue gave the app an exclusive feel. To me it looks like an invitation to a New York high-rise party, where I can see the app living out its potential. </p>
+
+			<p>I like to keep my color palette, typography options and other visual effects limited. This way I'm more structured in the way that I use them. For example I use the mint-green color for the up-votes as a reinforcement of the positive nature of the app. I used the orange, which is on the other side of the spectrum for the down-voting arrows because of its contrast with the green.  I only use the blue for the of the decision that the user is making. Another example is the use of the "brand" blue. Besides the branding portions (loading screen, icon, etc.), this blue is only used on the menu bar and in action buttons at the bottom.</p>
+
+			<h3>Thanks for reading! </h3>
+
+ 			
+
+
+
+
+				</div>
+				
+			</div>
+			
+</div>
+
+<div id="ghanaproject" class="panel">
+			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
+				<div class="img_cap_content_full">
+
+
+				<h2> The Nursury Project: Using Design Thinking to Create A Social Business </h2>
+				<img class="portfolio-full" src="Images/ghanabanner.png"/>
+
+
+				<h4> Design Challenge </h4>
+				<p class="image_caption_full"> Design and launch a locally owned, sustainable, scalable business that addresses a social challenge in a Ghanaian community, using a human centered design process and Think Impact's asset-based approach to development. 
+				</p>
+
+				<h4> My Approach </h4>
+				<p class="image_caption_full"> I immersed myself in a rural community for eight weeks, assembled a five person team of skilled locals and led them through an innovation process to create a low-cost, local cocoa nursery. 
+				</p>
+
+				<h4> Our Results </h4>
+				<p class="image_caption_full"> The cocoa nursury this team created reduced the money and labor required for new cocoa plants by 70% This reduction allows more people to afford access to cocoa seedlings and invest their saved money for nutritious meals and other local investments.  
+				</p>
+
+				<img class="portfolio-full" src="Images/ghanaicons.png" id="iconphoto"/>
+
+				<h3> The Design Process </h3>
+
+				<img class="portfolio-full" src="Images/userresearch.jpg"/>
+
+				<p class="image_caption_third"> Seeking a deep understanding of the local community allowed me to experience a variety of compelling perspectives and challenges. To understand Kwame Dwaa, Ghana, I lived with a local family and spent the first two weeks building empathy through interviews, shadowing, active observation, building character profiles, and mapping transactions. </p>
+
+				<img class="portfolio-full" src="Images/localassetmapping.jpg"/>
+
+				<p class="image_caption_third">In collaboration with other ThinkImpact scholars and the local community we integrated our research into large asset maps. After two weeks we facilitated a community wide mapping event, using the same asset map approach. This gave us a holistic view of the local resources, transactions, and motivations. We also utilized this information to identify potential co-workers for our project.</p>
+
+				<img class="portfolio-full" src="Images/communitymemberpersonas.jpg"/>
+
+				<p class="image_caption_third"> Using our own research and the local resource map, we created an individual persona for each potential new team member. Information included basic demographics, skills, job, goals and aspirations. We met as a team to build a list of locals we would ask to join our respective design teams.</p> 
+
+				<img class="portfolio-full" src="Images/designteamideaflow.jpg"/>
+
+				<p class="image_caption_third"> I assembled a design team of skilled individuals and led them in activities that facilitated creative thinking about their available resources and talents. I innovated hands-on activities where members were inspired to discover multiple uses for common materials such as water bottles and bamboo. This helped the team see the potential for radical new businesses. </p> 
+
+				<img class="portfolio-full" src="Images/storyboarding.jpg"/>
+
+				<p class="image_caption_third"> We identified a shared challenge: access to cocoa farming inputs, and then listed the assets and networks surrounding the issue. When the idea of a local cocoa nursery emerged, we drew a storyboard to visually describe how this issue affects the community and how our solution provides a sustainable answer. </p> 
+
+				<img class="portfolio-full" src="Images/prototyping.jpg"/>
+
+				<p class="image_caption_third">Once the team had agreed on a collective action plan, we set out prototyping our nursery by building a small one near the village center that attracted curiosity and enthusiasm. By building a prototype first, we were able to discover environmental hiccups and forge the best plan of action for a larger nursery. Since most materials were readily available locally our only monetary investment cost was for nails.</p> 
+
+				<img class="portfolio-full" src="Images/establishingavision.jpg"/>
+
+				<p class="image_caption_third">With a well-tested product and plenty of feedback, we established a plan covering the construction, individual roles, and marketing strategies for the new nursery. We presented our plan at a community exhibition alongside other innovations from Think Impact scholars.</p> 
+
+				<img class="portfolio-full" src="Images/sustainingthefuture.jpg"/>
+
+				<p class="image_caption_third">In collaboration with Self Help International, the cocoa nursery was provided with more inputs to start a large-scale operation. The local founders of the nursery are nearing their first harvest of 6000 cocoa plants that will provide the community with a stable source of income. </p> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+	
+				</div>
+	
+				
+			</div>
+			
+</div>
+
+
 
 <div id="misty_dailey" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
 				<div class="img_cap_content">
+
+
 				<p class="image_caption"> This logo was created as a project for a graphic design course. The prompt was to create a logo for an award to be given in memory of a Georgetown alumni. I designed the logo to appear as a badge while remaining as bright and playful as possible. (2013)
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
+				
 				</p>
 				<img class="portfolio-lg" src="Images/1-lg.jpg"/>
 				</div>
@@ -180,9 +408,14 @@
 
 <div id="the_hempest" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
+
 				<div class="img_cap_content">
+
+
 				<p class="image_caption"> Part of the curriculum of the Startup Insitute in Boston involves the creation of a website for a local shop. Since I am interested in hemp and its myriad of uses, I decided to re-design the website for "The Hempest" a local shop that specializes in hemp products. A quick look at <a class="in-textlink" href="http://www.thehempest.com" target="_blank"> the current site </a> will give you an idea of how much an improvement this version is. <a class="in-textlink" href="http://www.willdickey.me/hemp" target="_blank">Here</a> is my updated version.
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
 				</p>
 				<img class="portfolio-lg" src="Images/2-lg.jpg"/>
 				</div>
@@ -193,11 +426,15 @@
 
 <div id="mountainlogo" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
 				<div class="img_cap_content">
+
 				<p class="image_caption"> An alternate portfolio logo. I wanted to express my love for mountains and my pride of living in the cloudy wonderland that is the Northwest. (2013) 
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
-				</div>
 				</p>
+				</div>
+				
 				<img class="portfolio-lg" src="Images/4-lg.jpg">
 				
 			</div>
@@ -206,9 +443,11 @@
 
 <div id="mtrainier" class="panel">
 			<div class="content">
+
+					<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
 				<div class="img_cap_content">
-				<p class="image_caption"> This was a graphic design I did for fun for my music website <a class="in-textlink" href="http://relaux.com" target="_blank">Relaux</a>. I used a Delauney Triangulation script in Adobe Illustrator to get the pixelated effect of Mt. Rainier. (2012) 	
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
+				<p class="image_caption"> This was a graphic design I did for fun for my music website <a class="in-textlink" href="http://relaux.com" target="_blank">Relaux</a>. I used a Delauney Triangulation script in Adobe Illustrator to get the pixelated effect of Mt. Rainier. (2012) 
 				</p>
 				<img class="portfolio-lg" src="Images/9-lg.png">
 				</div>
@@ -219,9 +458,12 @@
 
 <div id="albumart" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
+
 				<div class="img_cap_content">
 				<p class="image_caption"> In order to convey the emotions expressed by <a class="in-textlink" href="https://soundcloud.com/tropics" target="_blank" >Tropics </a> on my music blog <a class="in-textlink" href="http://relaux.com" target="_blank">Relaux</a>, I crafted a geometric design to overlay the photograph of the tree.(2013)
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
 				 </p>
 				<img class="portfolio-lg" src="Images/6-lg.png">
 				</div>
@@ -232,9 +474,11 @@
 
 <div id="relaux" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
 				<div class="img_cap_content">
 				<p class="image_caption"> <a class="in-textlink" href="http://relaux.com" target="_blank">Relaux</a> started out as a radio show at Georgetown and quickly evolved into its own stand-alone website. While the site's backend is hosted by Tumblr, most of the front-end design has been carefully selected and designed towards the experience of relaxing and chill music.(2012) 
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
 				</p>
 				<img class="portfolio-lg" src="Images/3-lg.jpg">
 				</div>
@@ -245,11 +489,13 @@
 
 <div id="superblog" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
 				<div class="img_cap_content">
-				<p class="image_caption"> Part of my curriculum at the Startup Institute includes designing a blog-template with a mobile-responsive framework, CSS3, and jQuery. Click <a class="in-textlink" href="http://www.willdickey.me/blog" target="_blank"> here </a> to see the blog in action! (2013)
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
+				<p class="image_caption_third"> Part of my curriculum at the Startup Institute includes designing a blog-template with a mobile-responsive framework, CSS3, and jQuery. Click <a class="in-textlink" href="http://www.willdickey.me/blog" target="_blank"> here </a> to see the blog in action! (2013)
 				</p>
-				<img class="portfolio-lg" src="Images/5-lg.jpg">
+				<img class="portfolio-full" src="Images/5-lg.jpg">
 				</div>
 				
 			</div>
@@ -258,9 +504,12 @@
 
 <div id="relauxlogo" class="panel">
 			<div class="content">
+
+				<a class="caption_back_button" href="#portfolio"> < Portfolio  </a>
+
 				<div class="img_cap_content">
 				<p class="image_caption"> For my music website <a class="in-textlink" href="http://relaux.com" target="_blank">Relaux</a>, I wanted a simple logo that expressed the wavelike hypnotism of the music, while maintaining some reference to the site. The subtle "R" formed by the wave achieves this. (2012) 
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
+				
 				</p>
 				<img class="portfolio-lg" src="Images/7-lg.jpg">
 				</div>
@@ -271,9 +520,14 @@
 
 <div id="triangles" class="panel">
 			<div class="content">
+
+			<a class="caption_back_button" href="#portfolio">
+				< Portfolio  </a>
+
+
 				<div class="img_cap_content">
 				<p class="image_caption"> This graphic came out of my fascination with triangles and my experimentation with glitching photos in photoshop using the RAW data from the image. The outcome is a psyschedelic, awesome effect.(2012)
-				<a class="caption_back_button" class="ff-items" href="#portfolio"> Back </a>
+			
 				</p>
 				<img class="portfolio-lg" src="Images/8-lg.jpg">
 				</div>
@@ -291,7 +545,7 @@
 	<div id="blog" class="panel">
 		<div class="content">
 			<div class="blogpost">
-				<p>7 | 16  | 13</p>
+		
 				<h2> One tab at a time: The zen of web Browsing </h2>
 				<p>I have always had a few too many tabs open at any given time. By a few I mean like 30. This habit, like many others, was something that I never really noticed, not even when the titles of each individual tab became so slow, that my quest to find any past page was a guessing game.</p>
 				<p>I eventually gave up even going back to past tabs because opening new tabs became an obsession. I would only feel a tiny bit of remorse when I clicked the red “x” and enter the ultimate battle against myself: “Are you sure you want to close 30 tabs?” The computer asked me first. I tended to avoid this altogether by never closing the window, while the window of opportunity slowly dwindled with my attention span.</p>
@@ -337,6 +591,7 @@
 				<a href="http://www.linkedin.com/pub/will-dickey/2b/255/350" target="_blank"><li><div class="hi-icon icon-linkedin"></li></a>
 				<a href="http://relaux.com" target="_blank"><li><div class="hi-icon icon-headphones"></li></a>
 				<a href="mailto:wfdickey@gmail.com" target="_blank"><li><div class="hi-icon icon-envelop"></li></a>
+			</ul>
 			</div>
 		</div>
 	</div>

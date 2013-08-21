@@ -202,8 +202,24 @@ left: 300px;
 
 #slide4{
 	background-color: #d8d8d8;
-	height:850px;
+	height:800px;
 }
+
+
+#slide4 img:nth-child(2){
+	position:absolute;
+	top:130px;
+	right:-150px;
+
+}
+
+#slide4 img:nth-child(3){
+	position:absolute;
+	top:140px;
+	right:450px;
+
+}
+
 
 #baseimage {
 	float:left;
@@ -220,10 +236,7 @@ left: 300px;
 	color:rgba(51,51,51,0.3);
 }
 
-#moreaboutme {
-	padding-left:730px;
-	padding-top: 40px;
-}
+
 
 /******************************
  Icon Font  

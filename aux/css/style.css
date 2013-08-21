@@ -220,14 +220,14 @@ left: 300px;
 #slide4 img:nth-child(2){
 	position:absolute;
 	top:130px;
-	right:-150px;
+	right:-170px;
 
 }
 
 #slide4 img:nth-child(3){
 	position:absolute;
 	top:140px;
-	right:450px;
+	right:430px;
 
 }
 

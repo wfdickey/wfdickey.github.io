@@ -52,6 +52,17 @@ strong {
 	font-weight: bold;
 }
 
+
+a {
+	color:#4DBFAB;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+}
+
 .textlight {
 	color: #000000;
 }

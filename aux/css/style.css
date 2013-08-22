@@ -99,7 +99,7 @@ a:active {text-decoration:underline;}
 	left:50%;
 	background-color:#333333;
 	background-image:url(../images/arrow.png);
-	z-index:;
+	z-index:1000000;
 }
 .button:hover{
 	background-color:#494949;
@@ -179,7 +179,7 @@ a:active {text-decoration:underline;}
 
 #slide4{
 	background-color: #d8d8d8;
-	height:730px;
+	height:680px;
 	z-index:-10;
 
 }
@@ -199,7 +199,7 @@ a:active {text-decoration:underline;}
 
 #lastpic {
 	width:550px;
-	margin-top: 120%;
+	margin-top: 115%;
 	margin-left: 640px;
 	position:absolute;
 	z-index: 10000000;

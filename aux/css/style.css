@@ -100,6 +100,7 @@ a:active {text-decoration:underline;}
 	left:50%;
 	background-color:#333333;
 	background-image:url(../images/arrow.png);
+	z-index:10000;
 }
 .button:hover{
 	background-color:#494949;
@@ -179,7 +180,7 @@ a:active {text-decoration:underline;}
 
 #slide4{
 	background-color: #d8d8d8;
-	height:765px;
+	height:900px;
 	z-index: -1;
 
 }
@@ -190,6 +191,16 @@ a:active {text-decoration:underline;}
 	padding-left:455px;
 	z-index: 100;
 
+}
+
+#lastdescription {
+	margin-top: 2%;
+	width:50%;
+}
+
+#lastpic {
+	position:absolute;
+	z-index: 10000000;
 }
 
 

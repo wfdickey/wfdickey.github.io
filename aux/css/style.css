@@ -81,7 +81,6 @@ a:active {text-decoration:underline;}
 	height:100%;
 	margin: 0 auto;
 	position: relative;
-	z-index:0;
 }
 .wrapper{
 	width:100%;
@@ -100,7 +99,7 @@ a:active {text-decoration:underline;}
 	left:50%;
 	background-color:#333333;
 	background-image:url(../images/arrow.png);
-	z-index:10000;
+	z-index:;
 }
 .button:hover{
 	background-color:#494949;
@@ -108,7 +107,6 @@ a:active {text-decoration:underline;}
 }
 
 .slideimage {
-	z-index:-100000;
 }
 
 /******************************
@@ -116,7 +114,7 @@ a:active {text-decoration:underline;}
 *******************************/
 #slide1{
 	background-color:#d8d8d8;
-	z-index: 100;
+	z-index: 10;
 	
 }
 
@@ -130,6 +128,7 @@ a:active {text-decoration:underline;}
 *******************************/
 #slide2{
 	background-color:#d8d8d8;
+	z-index:;
 	
 }
 #slide2 img:first-child{
@@ -138,12 +137,12 @@ a:active {text-decoration:underline;}
 	right: 0px;
 }
 #slide2 img:nth-child(2){
-	z-index:100;
 	position:fixed;
 	width: 304px;
 	height:356px;
 	top:14.8%;
 	padding-left: 600px;
+	z-index:;
 
 }
 #slide2 img:nth-child(3){
@@ -152,7 +151,7 @@ a:active {text-decoration:underline;}
 	height: 112px;
 	position:absolute;
 	top:14.5%;
-	z-index:1000;
+	z-index:;
 }
 
 /******************************
@@ -160,16 +159,16 @@ a:active {text-decoration:underline;}
 *******************************/
 #slide3{
 	background-color:#d8d8d8;
-	z-index:-1;
+	z-index:-100;
 }
 
 #slide3 img:nth-child(2){
-	z-index: 1;
 	width:388px;
 	height:386px;
 	padding-left:565px;
 	position:absolute;
 	top:-1%;
+	z-index: ;
 	
 
 }
@@ -180,16 +179,16 @@ a:active {text-decoration:underline;}
 
 #slide4{
 	background-color: #d8d8d8;
-	height:900px;
-	z-index: -1;
+	height:730px;
+	z-index:-10;
 
 }
 
 #slide4 img{
 	position:absolute;
 	top:15%;
-	padding-left:455px;
-	z-index: 100;
+	padding-left:530px;
+	z-index:;
 
 }
 
@@ -199,6 +198,9 @@ a:active {text-decoration:underline;}
 }
 
 #lastpic {
+	width:550px;
+	margin-top: 120%;
+	margin-left: 640px;
 	position:absolute;
 	z-index: 10000000;
 }

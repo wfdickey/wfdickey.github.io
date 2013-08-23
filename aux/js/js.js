@@ -1,7 +1,6 @@
 jQuery(document).ready(function ($) {
 
 
-
     //Cache some variables
     var links = $('.navigation').find('li');
     slide = $('.slide');
@@ -63,13 +62,15 @@ jQuery(document).ready(function ($) {
 
     });
 
-    $.stellar({ horizontalScrolling: false });
-
-});
-
-$(function() {  
-$('.button').click(function(){
+    $(function() {  
+    $('.button').click(function(){
     $(this).css('border-color', 'black');
 
   });
+
+
+
+});
+
+
 });

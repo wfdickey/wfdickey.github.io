@@ -8,6 +8,9 @@ jQuery(document).ready(function ($) {
     mywindow = $(window);
     htmlbody = $('html,body');
 
+     $(function() {  
+    $('.button').click(function(){
+    $(this).css('border-color', 'black');
 
     //Setup waypoints plugin
     slide.waypoint(function (event, direction) {
@@ -62,9 +65,7 @@ jQuery(document).ready(function ($) {
 
     });
 
-    $(function() {  
-    $('.button').click(function(){
-    $(this).css('border-color', 'black');
+   
 
   });
 

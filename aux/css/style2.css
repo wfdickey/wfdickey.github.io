@@ -81,6 +81,7 @@ a:active {text-decoration:underline;}
 	height:100%;
 	margin: 0 auto;
 	position: relative;
+	background-color:#d8d8d8;
 }
 .wrapper{
 	width:100%;
@@ -106,24 +107,12 @@ a:active {text-decoration:underline;}
 	cursor:pointer;
 }
 
-
-#pixelme{
-	position: fixed;
-	right:230px;
-	top:100px;
-	z-index:5;
-	width: 304px;
-	height:356px;
+.slideimage {
 }
 
 /******************************
  SLIDE 1 
 *******************************/
-#slide1{
-	background-color:#d8d8d8;
-	z-index: 10;
-	
-}
 
 #mainheader {
 	width:100%;
@@ -134,33 +123,37 @@ a:active {text-decoration:underline;}
  SLIDE 2 
 *******************************/
 #slide2{
-	background-color:#d8d8d8;
+	z-index:;
 	
 }
-#slide2 img{
+#slide2 img:first-child{
+	position:absolute;
+	top: 0px;
+	right: 0px;
+}
+#slide2 img:nth-child(2){
 	padding-left:696px;
 	width:121px;
 	height: 112px;
 	position:absolute;
 	top:14.5%;
-	z-index:99;
+	z-index:;
 }
 
 /******************************
  SLIDE 3 
 *******************************/
 #slide3{
-	background-color:#d8d8d8;
-	position:relative;
+	z-index:1;
 }
 
-#slide3 img{
+#slide3 img:nth-child(2){
 	width:388px;
 	height:386px;
 	padding-left:565px;
 	position:absolute;
 	top:-1%;
-	z-index: 99;
+	z-index: ;
 	
 
 }
@@ -170,15 +163,15 @@ a:active {text-decoration:underline;}
 *******************************/
 
 #slide4{
-	background-color: #d8d8d8;
 	height:678px;
+	z-index:-10;
 
 }
 
 #slide4 img{
 	position:absolute;
 	top:15%;
-	z-index: 99;
+	z-index: 10000000000;
 
 }
 
@@ -192,13 +185,25 @@ a:active {text-decoration:underline;}
 	margin-top: 7%;
 	margin-left: 510px;
 	position:absolute;
+	z-index: 10000000;
 }
 
+#pixelme{
+	position: fixed;
+	right:240px;
+	top:0;
+	width: 304px;
+	height:356px;
+}
 .fixed_slide{
+	position:fixed;
 	width:1000px;
 	margin:0 auto;
 }
-
+#bigwrapper{
+	width:1000px;
+	margin:0 auto;
+}
 
 
 

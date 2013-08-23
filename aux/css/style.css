@@ -54,6 +54,7 @@ strong {
 }
 
 
+
 a {
 	color:#4DBFAB;
 }
@@ -70,11 +71,12 @@ a:active {text-decoration:underline;}
 
 .description {
 	width:50%;
-	padding-top: 10%;
+	margin-top: 10%;
 }
 
 
 .slide{
+	overflow:hidden;
 	width:1000px;
 	height:100%;
 	margin: 0 auto;
@@ -86,6 +88,7 @@ a:active {text-decoration:underline;}
 	background-color: #d8d8d8;
 	margin:0 auto;
 	position:relative;
+	padding-top: 5%;
 }
 
 .button{
@@ -108,7 +111,7 @@ a:active {text-decoration:underline;}
 #pixelme{
 	position: fixed;
 	margin-left:599px;
-	top:17%;
+	top:100px;
 	z-index:5;
 	width: 304px;
 	height:356px;
@@ -133,13 +136,15 @@ a:active {text-decoration:underline;}
 *******************************/
 #slide2{
 	background-color:#d8d8d8;
+	overflow:;
 	
 }
 #slide2 img{
-	padding-left:696px;
+	float:right;
+	margin-right:185px;
 	width:121px;
-	position:absolute;
-	top:31%;
+	position:relative;
+	top:150px;
 	z-index:99;
 }
 
@@ -148,10 +153,11 @@ a:active {text-decoration:underline;}
 *******************************/
 #slide3{
 	background-color:#d8d8d8;
+	overflow: visible;
 }
 
 #slide3 img{
-	top:15%;
+	top:94px;
 	width:388px;
 	height:386px;
 	padding-left:565px;
@@ -172,13 +178,13 @@ a:active {text-decoration:underline;}
 
 #slide4 img{
 	position:absolute;
-	top:5.5%;
+	top:18px;
 	z-index: 99;
 
 }
 
 #lastdescription {
-	padding-top: 10%;
+	padding-top: 0%;
 	width:50%;
 }
 
@@ -195,6 +201,8 @@ a:active {text-decoration:underline;}
 }
 
 
-
+#bottom_wrapper {
+	margin-left:55%;
+}
 
 

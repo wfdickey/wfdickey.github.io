@@ -62,10 +62,9 @@ jQuery(document).ready(function ($) {
 
     });
 
-  $(function() {  
+    $(function() {  
     $('.button').click(function(){
     $(this).css('border-color', 'black');
-   
 
   });
 

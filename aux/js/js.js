@@ -68,3 +68,10 @@ jQuery(document).ready(function ($) {
     $.stellar({ horizontalScrolling: false });
 
 });
+
+$(function() {  
+$('.button').click(function(){
+    $(this).css('border', 'green');
+
+  });
+});

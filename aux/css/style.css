@@ -110,7 +110,7 @@ a:active {text-decoration:underline;}
 #pixelme{
 	position: fixed;
 	margin-left:599px;
-	top:100px;
+	top:14%;
 	z-index:5;
 	width: 304px;
 	height:356px;

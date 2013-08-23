@@ -109,7 +109,7 @@ a:active {text-decoration:underline;}
 
 #pixelme{
 	position: fixed;
-	right:230px;
+	margin-left:600px;
 	top:100px;
 	z-index:5;
 	width: 304px;
@@ -171,7 +171,7 @@ a:active {text-decoration:underline;}
 
 #slide4{
 	background-color: #d8d8d8;
-	height:678px;
+	height:665px;
 
 }
 

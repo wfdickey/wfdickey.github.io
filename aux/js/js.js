@@ -64,7 +64,7 @@ jQuery(document).ready(function ($) {
 
     $(function() {  
     $('.button').click(function(){
-    $(this).css('border-color', 'black');
+    $(this).css('border-color','black');
 
   });
 

@@ -71,7 +71,7 @@ jQuery(document).ready(function ($) {
 
 $(function() {  
 $('.button').click(function(){
-    $(this).css('border', 'green');
+    $(this).css('border-color', 'black');
 
   });
 });

@@ -1,41 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/***********************************
+FONT 
+***********************************/
+
 @font-face {
-    font-family: 'BebasRegular';
-    src: url('font/bebas/BEBAS___-webfont.eot');
-    src: url('font/bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/bebas/BEBAS___-webfont.woff') format('woff'),
-         url('font/bebas/BEBAS___-webfont.ttf') format('truetype'),
-         url('font/bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-family: 'poetsenoneregular';
+    src: url('font/poets/poetsenone-regular-webfont.eot');
+    src: url('font/poets/poetsenone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/poets/poetsenone-regular-webfont.woff') format('woff'),
+         url('font/poets/poetsenone-regular-webfont.ttf') format('truetype'),
+         url('font/poets/poetsenone-regular-webfont.svg#poetsenoneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
+
+
 html,body{
- font-family: helvetica;
+ font-family: helvetica neue, helvetica, arial;
 	width:100%;
 	height:100%;
 	background-color: #d8d8d8;
+	background-image: url('../images/hoffman.png');
 
 }
 
 h1 {
+	font-family:poetsenoneregular;
 	font-size: 121px;
-	color: #000000;
-	width:100%;
+	color: #05341C;
+	width:60%;
 }
 
 h2 {
+	font-family: poetsenoneregular;
 	font-size:60px;
-	color: #000000;
-	width: 80%
+	color: #379986;
+	width: 60%
 }
 
 h3 {
+	font-family: poetsenoneregular;
 	font-size: 42px;
 	padding-bottom: 20px;
-	color: #4DBFAB;
+	color: #05341C;
 }
 
 h4 {
@@ -44,7 +56,7 @@ h4 {
 }
 
 p {
-	font-family: helvetica;
+	font-family: helvetica neue, helvetica, arial;
 	font-size: 24px;
 	line-height: 34px;
 }
@@ -56,7 +68,7 @@ strong {
 
 
 a {
-	color:#4DBFAB;
+	color:#379986;
 }
 
 a:link {text-decoration:none;}
@@ -81,6 +93,7 @@ a:active {text-decoration:underline;}
 	height:100%;
 	margin: 0 auto;
 	position: relative;
+	background-image: url('../images/hoffman.png');
 }
 .wrapper{
 	width:100%;
@@ -89,21 +102,25 @@ a:active {text-decoration:underline;}
 	margin:0 auto;
 	position:relative;
 	padding-top: 5%;
+	background-image: url('../images/hoffman.png');
 }
 
 .button{
+
+
+
 	display:block;
 	width:50px;
 	height:50px;
 	position:absolute;
-	bottom:0px;
-	left:50%;
-	background-color:#333333;
+	top: 530px;
+	left:736px;
+	background-color:#05341C;
 	background-image:url(../images/arrow.png);
-	z-index:1000000;
+	z-index:4;
 }
 .button:hover{
-	background-color:#494949;
+	background-color:#096637;
 	cursor:pointer;
 }
 
@@ -111,28 +128,29 @@ a:active {text-decoration:underline;}
 #pixelme{
 	position: fixed;
 	margin-left:599px;
-	top:100px;
+	top:110px;
 	z-index:5;
 	width: 304px;
 	height:356px;
 }
 
 /******************************
- SLIDE 1 
+ SLIDE 1 (Hello)
 *******************************/
 #slide1{
 	background-color:#d8d8d8;
-	z-index: 10;
+	/*z-index: 10; */
 	
 }
 
 #mainheader {
 	width:100%;
 	height:400px;
-	padding-top: 15%
+	padding-top: 50px;
 }
+
 /******************************
- SLIDE 2 
+ SLIDE 2 (SIB Shirt)
 *******************************/
 #slide2{
 	background-color:#d8d8d8;
@@ -141,15 +159,15 @@ a:active {text-decoration:underline;}
 }
 #slide2 img{
 	float:right;
-	margin-right:185px;
+	margin-right:184px;
 	width:121px;
 	position:relative;
-	top:150px;
+	top:160px;
 	z-index:99;
 }
 
 /******************************
- SLIDE 3 
+ SLIDE 3 (Virtruvian Man) 
 *******************************/
 #slide3{
 	background-color:#d8d8d8;
@@ -157,7 +175,7 @@ a:active {text-decoration:underline;}
 }
 
 #slide3 img{
-	top:94px;
+	top:102px;
 	width:388px;
 	height:386px;
 	padding-left:565px;
@@ -168,7 +186,7 @@ a:active {text-decoration:underline;}
 }
 
 /******************************
- SLIDE 4 
+ SLIDE 4 (The End)
 *******************************/
 
 #slide4{
@@ -178,7 +196,7 @@ a:active {text-decoration:underline;}
 
 #slide4 img{
 	position:absolute;
-	top:18px;
+	top:100px;
 	z-index: 99;
 
 }
@@ -190,7 +208,7 @@ a:active {text-decoration:underline;}
 
 #lastpic {
 	width:554px;
-	margin-top: 7%;
+	
 	margin-left: 510px;
 	position:absolute;
 }
@@ -203,6 +221,7 @@ a:active {text-decoration:underline;}
 
 #bottom_wrapper {
 	margin-left:55%;
+	margin-top:100px;
 }
 
 

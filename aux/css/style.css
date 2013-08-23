@@ -110,7 +110,7 @@ a:active {text-decoration:underline;}
 #pixelme{
 	position: fixed;
 	margin-left:599px;
-	top:14%;
+	top:14.5%;
 	z-index:5;
 	width: 304px;
 	height:356px;
@@ -159,7 +159,7 @@ a:active {text-decoration:underline;}
 	height:386px;
 	padding-left:565px;
 	position:absolute;
-	top:-1%;
+	top:-2.5%;
 	z-index: 99;
 	
 
@@ -177,7 +177,7 @@ a:active {text-decoration:underline;}
 
 #slide4 img{
 	position:absolute;
-	top:15%;
+	top:-2%;
 	z-index: 99;
 
 }

@@ -25,7 +25,7 @@ html,body{
 	width:100%;
 	height:100%;
 	background-color: #d8d8d8;
-	background-image: url('../images/hoffman.png');
+	background-image: url('');
 
 }
 
@@ -94,16 +94,16 @@ a:active {text-decoration:underline;}
 	height:100%;
 	margin: 0 auto;
 	position: relative;
-	background-image: url('../images/hoffman.png');
+	background-image: url('');
 }
 .wrapper{
 	width:100%;
 	height:100%;
-	background-color: #d8d8d8;
+	background-color:;
 	margin:0 auto;
 	position:relative;
 	padding-top: 5%;
-	background-image: url('../images/hoffman.png');
+	background-image: url('');
 }
 
 .button{
@@ -144,8 +144,6 @@ a:active {text-decoration:underline;}
  SLIDE 1 (Hello)
 *******************************/
 #slide1{
-	background-color:#d8d8d8;
-	/*z-index: 10; */
 	
 }
 
@@ -159,8 +157,7 @@ a:active {text-decoration:underline;}
  SLIDE 2 (SIB Shirt)
 *******************************/
 #slide2{
-	background-color:#d8d8d8;
-	overflow:;
+	
 	
 }
 #slide2 img{
@@ -176,7 +173,6 @@ a:active {text-decoration:underline;}
  SLIDE 3 (Virtruvian Man) 
 *******************************/
 #slide3{
-	background-color:#d8d8d8;
 	overflow: visible;
 }
 
@@ -196,7 +192,7 @@ a:active {text-decoration:underline;}
 *******************************/
 
 #slide4{
-	background-color: #d8d8d8;
+	background-color: ;
 
 }
 

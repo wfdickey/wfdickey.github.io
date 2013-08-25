@@ -25,7 +25,7 @@ html,body{
 	width:100%;
 	height:100%;
 	background-color: #d8d8d8;
-	background-image: url('');
+	background-image: url('../images/mooning.png');
 
 }
 
@@ -115,7 +115,7 @@ a:active {text-decoration:underline;}
 	height:50px;
 	position:absolute;
 	top: 550px;
-	left:736px;
+	left:730px;
 	background-color:#05341C;
 	background-image:url(../images/arrow.png);
 	z-index:4;

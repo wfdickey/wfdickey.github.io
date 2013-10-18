@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('div').mouseover(function() {
-        $(this).fadeTo(4000,'0');
+        $(this).fadeTo(3000,'0');
     });
 });
 

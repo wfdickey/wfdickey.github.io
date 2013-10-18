@@ -1,34 +1,21 @@
+body {
+	width: 1300px;
+	font-family: helvetica;
+}
+
 div {
     height: 100px;
     width: 100px;
     border-radius: 5px;
-    margin:1%;
+    margin:0.1%;
     float:left;
+    text-align: center;
+    padding-top: 30px;
 
 }
 
 #red {
-	background-color: red;
-}
+	background-color: #6dffb9;
 
-#orange {
-	background-color: orange;
-}
-
-#yellow {
-	background-color: yellow;
-}
-
-#green {
-	background-color: green;
-}
-
-#blue {
-	background-color: blue;
-}
-
-#purple {
-	background-color: purple;
-}
 
 

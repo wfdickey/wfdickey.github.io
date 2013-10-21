@@ -1,5 +1,6 @@
 body {
 	width: 1300px;
+<<<<<<< HEAD
 	height:700px;
 	font-family: helvetica;
 }
@@ -16,11 +17,20 @@ div {
 	position: relative;
     height: 50px;
     width: 50px;
+=======
+	font-family: helvetica;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+>>>>>>> web-form
     border-radius: 5px;
     margin:0.1%;
     float:left;
     text-align: center;
     padding-top: 30px;
+<<<<<<< HEAD
     z-index:1000;
 
 }
@@ -28,5 +38,13 @@ div {
 #red {
 	background-color: #6dffb9;
 
+=======
+
+}
+
+#red {
+	background-color: #6dffb9;
+
+>>>>>>> web-form
 
 

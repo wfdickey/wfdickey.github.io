@@ -59,5 +59,8 @@ input {
 	line-height: 40px;
 }
 
+.item {
+	background-color: grey;
+}
 
 

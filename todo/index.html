@@ -5,12 +5,11 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 	</head>
 	<body>
-		<p></p>
-		<h2>Crush It!</h2>
-		<form name="checkListForm">
+		<h2>My To-Do List</h2>
+		<form name="checkListForm" onsubmit="this.submit(); this.reset(); return false;">
 			<input type="text" name="checkListItem" placeholder="What do you want to do?"/>
 		</form>
-		<div id="button">Add!</div>
+		<a href="#"><div id="button">Add!</div></a>
 		<br/>
 		<div class="list"></div>
 

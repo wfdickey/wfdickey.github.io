@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // enclose plugin so no variables leak out  
 (function($) {
 
@@ -126,7 +125,7 @@
         })();
     };
 })(jQuery);
-=======
+
 (function(){
 
     /* define address book methods */
@@ -233,4 +232,3 @@
     $("#get-all").click(addr.getAllContacts);
 
 })();
->>>>>>> 28b54fed375dcffef858b88a054ab70421b5fafe

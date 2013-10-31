@@ -76,10 +76,21 @@ h2 {
 	opacity: 0.7;
 }
 
+a {
+	font-family: 'code_lightregular';
+	font-size: 16px;
+	color: #fff;
+}
+
 li {
 	float: left;
 	padding: 10px;
 }
+
+a:link {color:#fff;}      /* unvisited link */
+a:visited {color:#fff;}  /* visited link */
+a:hover {color:#28ff98;}  /* mouse over link */
+a:active {color:#fff;} /* selected link */
 
 #wrapper {
 	width: 960px;
@@ -94,8 +105,15 @@ li {
 }
 
 #logo img {
-	width: 250px;
+	width: 150px;
 	opacity: 0.7;
+}
+
+#assistance {
+	clear: both;
+	float: left;
+	margin-top: 40px;
+	margin-left: 380px
 }
 
 .icon-soundcloud:before {

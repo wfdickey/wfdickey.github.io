@@ -139,6 +139,7 @@ li {
 /* Effect 3b */
 .hi-icon-effect-3b .hi-icon {
     color: #fff;
+    opacity: 0.7;
 }
 
 .hi-icon-effect-3b .hi-icon:hover {

@@ -1,41 +1,45 @@
 <!DoctypeHTML> 
 <html lang="en">
 <head>
-
 	<meta charset="utf-8">
-	<title>Address Book</title>
-
-	<style> 
-		.active { background: #ddd; }
-		.hovering {background: #eee; }
-		form > div { padding: 10px; }
-	</style>
-	
+	<title>Mustache Template</title>
+	<link href="css/stylesheet.css" rel="Stylesheet" type="text/css">
 </head>
 
-</body>
+<body>
 
-<h1> Address book AJAX! (jQuery) </h1> 
+<div id="wrapper">
+	<h1>The Magic Mustached Contacts Search</h1>
+	<div id="search-box"> 
+		<form action="" method="get" id="search-form">
 
-<form action="" method="get" id="search-form">
+			<div class="section">
+				<input type="search" id="q" name="q" required placeholder="type a name">
+			</div><!--/.section-->  
 
-	<div class="section">
-		<label for="q">Search address book</label>
-		<input type="search" id="q" name="q" required placeholder="type a name">
-	<div><!--/.section-->  
+			<div class="button-group">
+				<button type="submit" id="btn-search">search</button>
+				<button type="button" id="get-all"> get all contacts </button>
+			</div><!--/.button-group-->
+		</form>
+	</div>
 
-	<div class="button-group">
-		<button type="submit" id="btn-search">search</button>
-		<button type="button" id="get-all"> get all contacts </button>
-	</div><!--/.button-group-->
 
-</form>
+	<div id="output" aria-atomic="true" aria-live="polite"></div><!--/#output-->
 
-<div id="output" aria-atomic="true" aria-live="polite"></div><!--/#output-->
+	<script type="text/x-mustache-tmpl" id="mustache-template">
+		<ul>
+		{{#addressBook}}
+			<li><a href="mailto:{{email}}">{{name}}</a></li>
+		{{/addressBook}}
+		</ul>
+	</script>
+	</div> 
 
-<!--javascript-->
-<script src="js/jquery.js"></script>
-<script src="js/addressbook.js"></script>
+	<!--js-->
+	<script src="js/mustache.js"></script>
+	<script src="js/addressbook.js"></script>
+</div> 
 
 </body>
 </htmL>

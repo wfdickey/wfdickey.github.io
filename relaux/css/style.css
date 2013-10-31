@@ -43,6 +43,7 @@ h2 {
 	color: #fff;
 	font-size: 40px;
 	text-align: center;
+	opacity: 0.7;
 }
 
 #wrapper {
@@ -59,6 +60,7 @@ h2 {
 
 #logo img {
 	width: 250px;
+	opacity: 0.7;
 }
 
 

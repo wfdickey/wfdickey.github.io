@@ -1,0 +1,20 @@
+html {
+	background-image: url(images/moss.jpg);
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#wrapper {
+	width: 960px;
+	margin:0 auto;
+}
+
+#logo {
+	margin-top: 100px;
+	text-align: center;
+}
+
+#logo img {
+	width: 300px;
+}
+

@@ -1,7 +1,46 @@
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('font/Code_Bold/code_bold-webfont.eot');
+    src: url('font/Code_Bold/code_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Code_Bold/code_bold-webfont.woff') format('woff'),
+         url('font/Code_Bold/code_bold-webfont.ttf') format('truetype'),
+         url('font/Code_Bold/code_bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('font/Code_Light/code_light-webfont.eot');
+    src: url('font/Code_Light/code_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Code_Light/code_light-webfont.woff') format('woff'),
+         url('font/Code_Light/code_light-webfont.ttf') format('truetype'),
+         url('font/Code_Light/code_light-webfont.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html {
 	background-image: url(images/moss.jpg);
 	background-attachment:fixed;
 	background-position:center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'code_boldregular';
+	font-size: 80px;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'code_lightregular';
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
 }
 
 #wrapper {
@@ -10,11 +49,17 @@ html {
 }
 
 #logo {
-	margin-top: 100px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	text-align: center;
+
 }
 
 #logo img {
-	width: 300px;
+	width: 250px;
 }
+
+
+
+
 

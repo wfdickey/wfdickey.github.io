@@ -78,9 +78,9 @@ h2 {
 
 a {
 	font-family: 'code_lightregular';
-	text-decoration: none; 
 	font-size: 16px;
 	color: #fff;
+	text-decoration: none; 
 }
 
 li {
@@ -131,6 +131,7 @@ a:active {color:#fff;} /* selected link */
 #icon-nav {
 	padding-top: 20px;
 	margin-left: 395px;
+
 }
 
 

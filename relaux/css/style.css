@@ -130,6 +130,7 @@ a:active {color:#fff;} /* selected link */
 #icon-nav {
 	padding-top: 20px;
 	margin-left: 395px;
+	text-decoration: none; 
 }
 
 
